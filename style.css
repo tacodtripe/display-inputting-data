@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+html {
+    background-color: #ECEEF1;
+}
+
+a {
+    text-decoration: none;
+    color: #0798E1;
+}
+
+button {
+    background-color: #0077c5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+}
+
+button span, button i {
+    color: white;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 20vh 60vh 10vh;
+    margin: 1em;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 4em 6em;
+}
+
+header #sign-in {
+    justify-self: end;
+}
+
+header #logos {
+    justify-self: center;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 20px 20px;
+    color: #505050;
+}
+
+
+footer #bottom-links {
+    justify-self: center;
+}
+
+footer #bottom-links a {
+    color: #505050;
+    padding: 0 10px;
+}
+
+footer h5 {
+    text-align: center;
+}
+
+/*html, body {
+    height: 100%;
+  display: flex;
+      justify-content: center;      
+  }
+*/
+html{
+    background-color: #ECEEF1;
+}
+
+body, div, h2, form, input, p { 
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+h2 {
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+p {
+    font-size: 12px;
+}
+.form-info {
+    max-width: 340px; 
+    min-height: 460px; 
+    padding: 10px 0;
+    margin: auto;
+    border: solid 1px #ccc;
+    background: #fff
+}
+
+form {
+    margin: 0 30px;
+}
+
+input {
+    width: calc(100% - 10px);
+    height: 36px;
+    margin: 13px 0 0 -5px;
+    padding-left: 10px; 
+    border: solid 1px #CBC9C9; 
+}
+
+input[type=password] {
+    margin-bottom: 15px;
+}
+.btn-bl {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px auto; 
+    border: none;
+    background: #1C87C9; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#info-account{
+    text-align: center;
+}
+
+#google-info{
+    background-color: #ECEEF1;
+    width: 122%;
+    padding-left: 2.9em;
+    position: relative;
+    left: -30px;
+    bottom: -0.9em;
+    border: solid 1px #ccc;
+    border-top: transparent;
+    text-align: center;
+    padding-right: 1.9em;
+}
+
+#sign-in-button{
+    height: 34px;
+    width: 105px;
+    border: solid 1px #4c4c4c;
+    margin-right: 10px;
+    position: relative;
+    bottom: 20px;
+}
+
+#sign-in-button span {
+    position: relative;
+    bottom: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#sign-in-button i {
+    position: relative;
+    bottom: 3px;
+    font-size: 15px;
+    right: 4px;
+}
+
+#upper-span, #sign-in a {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+#sign-in {
+    line-height: 0px;
+}
+
+
+

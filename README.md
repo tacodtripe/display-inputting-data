@@ -5,7 +5,7 @@ Created a form page.
 
 ![screenshot](./mint.png)
 
-This is our first project.
+This is our second project.
 
 ## Built With
 

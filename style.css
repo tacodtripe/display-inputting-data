@@ -26,8 +26,9 @@ button span, button i {
 
 body {
     display: grid;
-    grid-template-rows: 20vh 60vh 10vh;
-    margin: 1em;
+    grid-template-columns: minmax(820px,100%);
+    grid-template-rows: minmax(160px,15vh) minmax(540px,60vh) minmax(105px,10vh);
+    margin: 1em 2em !important;
 }
 
 header {
@@ -63,12 +64,6 @@ footer h5 {
     text-align: center;
 }
 
-/*html, body {
-    height: 100%;
-  display: flex;
-      justify-content: center;      
-  }
-*/
 html{
     background-color: #ECEEF1;
 }
@@ -102,7 +97,7 @@ form {
 }
 
 input {
-    width: calc(100% - 10px);
+    width: 100%;
     height: 36px;
     margin: 13px 0 0 -5px;
     padding-left: 10px; 
@@ -117,15 +112,22 @@ input[type=password] {
     text-align: center;
 }
 
+.btn-bl i {
+    position: relative;
+    top: 2px;
+    font-size: 16px;
+}
+
 button {
     width: 100%;
     padding: 10px 0;
-    margin: 10px auto; 
     border: none;
     background: #1C87C9; 
     font-size: 14px;
     font-weight: 600;
     color: #fff;
+    position: relative;
+    right: 5px;
 }
 
 #info-account{
@@ -143,6 +145,7 @@ button {
     border-top: transparent;
     text-align: center;
     padding-right: 1.9em;
+    color: #8d9096
 }
 
 #sign-in-button{
@@ -151,7 +154,7 @@ button {
     border: solid 1px #4c4c4c;
     margin-right: 10px;
     position: relative;
-    bottom: 20px;
+    bottom: 9px;
 }
 
 #sign-in-button span {
@@ -172,10 +175,32 @@ button {
     font-size: 12px;
     font-weight: normal;
     margin-top: 0px;
+
 }
 
-#sign-in {
-    line-height: 0px;
+#upper-span {
+    position: relative;
+    bottom: 20px;
+    left: 14em;
+    color: #434547;
+}
+
+#upper-a {
+    position: relative;
+    bottom: 6px;
+    right: 8px;
+}
+
+#logos span {
+    position: relative;
+    bottom: 8px;
+    color: #8d9096;
+}
+
+#logos img[alt="Intuit logo"] {
+    position: relative;
+    left: 5.2em;
+    bottom: 13px;
 }
 
 
